@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent button1Intent = new Intent(MainActivity.this, SecondActivity.class);
         startActivity(button1Intent);
         Toast.makeText(MainActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
+        
 
     }
 }
